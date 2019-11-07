@@ -1,0 +1,40 @@
+PATH
+  remote: .
+  specs:
+    aion-s3 (1.0.0)
+      aws-sdk-s3 (~> 1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aws-eventstream (1.0.3)
+    aws-partitions (1.232.0)
+    aws-sdk-core (3.73.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+      aws-partitions (~> 1, >= 1.228.0)
+      aws-sigv4 (~> 1.1)
+      jmespath (~> 1.0)
+    aws-sdk-kms (1.25.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.53.0)
+      aws-sdk-core (~> 3, >= 3.71.0)
+      aws-sdk-kms (~> 1)
+      aws-sigv4 (~> 1.1)
+    aws-sigv4 (1.1.0)
+      aws-eventstream (~> 1.0, >= 1.0.2)
+    jmespath (1.4.0)
+    minitest (5.11.3)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aion-s3!
+  bundler (~> 1.17.3)
+  minitest (~> 5.11.3)
+  rake (~> 12.3.1)
+
+BUNDLED WITH
+   1.17.3
