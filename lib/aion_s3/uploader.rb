@@ -51,10 +51,10 @@ module AionS3
       }
 
       if @lock_seconds > 0
-        options.reverse_merge!(
+        options = {
             object_lock_mode: 'COMPLIANCE',
             object_lock_retain_until_date: Time.now + @lock_seconds
-        )
+        }.merge(options)
       end
 
       @client.put_object(options)
