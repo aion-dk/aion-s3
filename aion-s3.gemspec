@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'aws-sdk-s3', '~> 1'
 
   spec.add_development_dependency 'bundler', '~> 2.2.10'
-  spec.add_development_dependency 'uri', '~> 0.10.1'
+  spec.add_development_dependency 'uri', '~> 0.12.1'
   spec.add_development_dependency 'rake', '~> 12.3.1'
   spec.add_development_dependency 'minitest', '~> 5.11.3'
 end
